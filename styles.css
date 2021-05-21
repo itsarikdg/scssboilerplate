@@ -1,14 +1,11 @@
 body {
   font-size: 1rem/1.4;
 }
-@media only screen and (min-width: 1200px) {
-  body {
-    font-size: 0.9rem;
-  }
-}
 
 header {
   /** header code goes here **/
 }
+
+/* forward components here */
 
 /*# sourceMappingURL=styles.css.map */
