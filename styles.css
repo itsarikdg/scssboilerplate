@@ -1,14 +1,23 @@
 body {
   font-size: 1rem/1.4;
 }
-@media only screen and (min-width: 1200px) {
-  body {
-    font-size: 0.9rem;
-  }
+
+body {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  background-color: #fafafa;
+}
+
+section {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  background-color: #333;
 }
 
 header {
   /** header code goes here **/
 }
+
+/* forward components here */
 
 /*# sourceMappingURL=styles.css.map */
