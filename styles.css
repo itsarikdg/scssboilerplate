@@ -1,7 +1,11 @@
+body {
+  font-size: 1rem/1.4;
+}
+
 header {
   /** header code goes here **/
 }
 
 /* forward components here */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
