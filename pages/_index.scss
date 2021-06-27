@@ -1,1 +1,9 @@
-@forward "frontpage";
+/** forward pages here **/ 
+/** @forward <page> **/ 
+
+@use "../abstracts" as *;
+
+
+body {
+  @include mq(md);
+}
