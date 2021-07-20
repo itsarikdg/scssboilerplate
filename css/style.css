@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "font name";
+  src: url("../fonts/filename.woff2") format("woff2"), url("../fonts/filename.woff") format("woff"), url("../fonts/filename.ttf") format("truetype"), url("../fonts/filename.otf") format("opentype");
+}
+/* colors */
+body {
+  background-color: red;
+}
+@media only screen and (min-width: 62em) {
+  body {
+    background-color: blue;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

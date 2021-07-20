@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/base/_reset.scss","../scss/abstracts/_fonts.scss","../scss/abstracts/_colors.scss","../scss/base/_index.scss","../scss/abstracts/_mixins.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;EAGE;;;AAGF;AAAA;EAEE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;;;ACTF;EACE;EACA;;ACXF;ACGA;EAEE,kBDHQ;;AEGR;EDFF;IAII,kBDHM","file":"style.css"}
