@@ -1,10 +1,2 @@
 @use "reset";
-@use "../abstracts" as abs;
-
-body {
-  // color: black;
-  background-color: abs.$clr-pri;
-  @include abs.mq(md) {
-    background-color: abs.$clr-acc;
-  }
-}
+@use "typography";
