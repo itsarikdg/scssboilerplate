@@ -1,0 +1,67 @@
+@use "../abstracts/mixins" as *;
+
+:root {
+  --ff-pri: proxima-nova, sans-serif;
+  --ff-alt: semplicitapro, sans-serif;
+
+  --clr-pri: hsl(205 100% 50%);
+  --clr-sec: hsl(225 45% 40%);
+  --clr-acc: hsl(30 100% 60%);
+
+  --clr-w: hsl(0 0% 100%);
+  --clr-b: hsl(0 0% 0%);
+
+  /*
+   *  container widths
+   */
+  --cont-mw: 75em;
+
+  /*
+   * colors : dark
+   - --clr-w-100 - clr-w-900
+   */
+  @for $i from 1 through 9 {
+    --clr-w-#{$i * 100}: hsl(0 0% #{100 - $i * 5}%);
+  }
+
+  /*
+   * colors : dark
+   - --clr-b-100 - clr-b-900
+   */
+
+  @for $i from 1 through 9 {
+    --clr-b-#{$i * 100}: hsl(0 0% #{$i * 5}%);
+  }
+
+  /*
+   * line heights
+   */
+
+  --lh-sm: 1.2;
+  --lh-md: 1.5;
+  --lh-lg: 1.8;
+
+  /*
+   * spaces
+   */
+
+  --spc-xs: 0.625rem;
+  --spc-sm: 1.25rem;
+  --spc-md: 1.875rem;
+  --spc-lg: 3.125rem;
+  --spc-xl: calc(var(--spc-lg) * 2);
+
+  /*
+   * font sizes
+   */
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 1.125rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2.5rem;
+
+  /*
+  * media query to adjust styles here 
+  */
+}
